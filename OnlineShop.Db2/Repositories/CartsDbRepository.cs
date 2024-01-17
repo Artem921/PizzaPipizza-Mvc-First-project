@@ -84,7 +84,7 @@ namespace OnlineShop.Db.Repositories
 
 			product.Amount -= 1;
 
-			if (product.Amount == 0) await	ClearAsync(cartId);
+			if (product.Amount == 0) cart.CartProducts.Remove(product);
 
 			await databaseContext.SaveChangesAsync();
 
