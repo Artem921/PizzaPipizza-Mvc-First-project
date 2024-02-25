@@ -7,5 +7,7 @@
 ## Stack of technologies
 + Entity Framework Core
 + Microsoft.AspNetCore
++ Microsoft.AspNet.Identity.Core
++ AutoMapper
 
 
